@@ -1,8 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 header {
-  background-color: #014730;
+  width: 100%;
+  text-align: right;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+}
+
+header li:last-child {
+  margin-right: 75px;
 }
 
 header a {
-  background-color: antiquewhite;
+  margin-left: 50px;
+}
+
+.m :hover {
+  fill: #ff000d !important;
+}
+
+.xll {
+  background-color: rgba(224, 146, 28, 0.822);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */
