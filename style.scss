@@ -47,7 +47,7 @@ header{
 //Header done
 
 .meniu{
-      
+    transition: top bottom ease 1.5s;
     
     img{
         position: relative;
@@ -59,6 +59,11 @@ header{
     ul{
         text-align: right;
         margin-top: 0px;
+        :hover{
+            transform: translateY(-1px)
+           
+        }
+        
 
         li{
             display: inline-block;   
@@ -69,9 +74,17 @@ header{
             font-size: 14px;
             line-height: 18px;
             
+
+            :hover{
+                color: #56AB35;
+               
+            }
+            
             a{
                 text-decoration: none;
                 color: #626363;
+             
+                
             }
             .cart{
                 :hover{
@@ -85,10 +98,15 @@ header{
             position: relative;
             margin-right: 95px;
             top: 10px;
+            
         }
     }
 }
 //Meniu Done
+
+// .AboutUs{
+    
+// }
 
 .xll{
     background-color: rgba(28, 224, 191, 0.822);

@@ -34,6 +34,11 @@ header a {
   fill: #DA9F39;
 }
 
+.meniu {
+  -webkit-transition: top bottom ease 1.5s;
+  transition: top bottom ease 1.5s;
+}
+
 .meniu img {
   position: relative;
   width: 240px;
@@ -47,6 +52,11 @@ header a {
   margin-top: 0px;
 }
 
+.meniu ul :hover {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
 .meniu ul li {
   display: inline-block;
   padding-right: 45px;
@@ -55,6 +65,10 @@ header a {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+}
+
+.meniu ul li :hover {
+  color: #56AB35;
 }
 
 .meniu ul li a {
