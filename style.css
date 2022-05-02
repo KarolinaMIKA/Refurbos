@@ -86,16 +86,27 @@ header a {
   top: 10px;
 }
 
-.AboutUs bac
-h1 {
+.News {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.News h1 {
   font-family: 'Readex Pro';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 45px;
+  color: #626363;
+  position: absolute;
+  width: 630px;
+  height: 45px;
+  left: 75px;
+  top: 250px;
 }
 
-.AboutUs p {
+.News p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -103,16 +114,22 @@ h1 {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #626363;
+  position: absolute;
+  width: 630px;
+  height: 120px;
+  left: 75px;
+  top: 325px;
 }
 
-.AboutUs span :hover {
+.News span :hover {
   color: #FFFFFF;
   background-color: #56AB35;
   -webkit-transition: background-color 500ms ease-in-out;
   transition: background-color 500ms ease-in-out;
 }
 
-.AboutUs button {
+.News button {
+  position: absolute;
   width: 300px;
   height: 50px;
   left: 75px;
@@ -129,6 +146,29 @@ h1 {
   border-radius: 7px;
   cursor: pointer;
   background-color: transparent;
+}
+
+.News .PhonesPhotos .IphonePicture {
+  position: absolute;
+  width: 199.07px;
+  height: 400px;
+  right: 217.93px;
+  top: 204px;
+}
+
+.News .PhonesPhotos .PhoneBehind {
+  position: absolute;
+  width: 174.13px;
+  height: 360px;
+  right: 355.87px;
+  top: 224px;
+}
+
+.News .background {
+  position: absolute;
+  right: 0px;
+  opacity: 0.54;
+  top: 0px;
 }
 
 .xll {
