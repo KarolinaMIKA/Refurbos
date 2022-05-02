@@ -22,15 +22,15 @@ header a {
   margin-left: 50px;
 }
 
-.message :hover path {
+header .message :hover path {
   fill: #25A3DD;
 }
 
-.wickr :hover path {
+header .wickr :hover path {
   fill: #080808;
 }
 
-.email :hover path {
+header .email :hover path {
   fill: #DA9F39;
 }
 
@@ -169,11 +169,94 @@ header a {
   right: 0px;
   opacity: 0.54;
   top: 0px;
+  z-index: -10;
 }
 
-.xll {
-  background-color: rgba(28, 224, 191, 0.822);
-  padding-top: 100px;
-  padding-bottom: 100px;
+.Shop h2 {
+  position: absolute;
+  width: 294px;
+  height: 28px;
+  left: 75px;
+  top: 695px;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #626363;
+}
+
+.Shop .item1 {
+  position: absolute;
+  width: 300px;
+  height: 402px;
+  left: 75px;
+  top: 803px;
+}
+
+.Shop .item1 img {
+  width: 300px;
+  height: 300px;
+}
+
+.Shop .item1 .quantity {
+  margin-top: -4px;
+  background-color: #FBFBFB;
+}
+
+.Shop .item1 .quantity .button_minus {
+  border: none;
+  width: 55px;
+  height: 50px;
+  left: 75px;
+  color: #C4C4C4;
+  background-color: #FBFBFB;
+  text-align: center;
+}
+
+.Shop .item1 .quantity .input_qty {
+  width: 60px;
+  height: 50px;
+  background: #FBFBFB;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  border: none;
+  color: #626363;
+}
+
+.Shop .item1 .quantity .button_plus {
+  width: 55px;
+  height: 50px;
+  left: 190px;
+  color: #C4C4C4;
+  background-color: #FBFBFB;
+  text-align: center;
+  border: none;
+}
+
+.Shop .item1 .quantity .Price {
+  width: 129px;
+  height: 50px;
+  background: #FBFBFB;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #626363;
+  border-left: 1px solid #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30.5px;
+  padding-right: 30.5px;
+}
+
+.Shop .item1 .Add_To_Cart {
+  width: 300px;
+  height: 50px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
