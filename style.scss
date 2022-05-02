@@ -5,6 +5,7 @@ body{
 header{
     width:100%;
     text-align: right;
+    border-bottom: 1px solid #F6F6F6;
     
     li{
         list-style: none;
@@ -45,7 +46,49 @@ header{
 }
 //Header done
 
+.meniu{
+      
+    
+    img{
+        position: relative;
+        width: 240px;
+        height: 28.88px;
+        left: 75px;
+        top: 50px;
+    }
+    ul{
+        text-align: right;
+        margin-top: 0px;
 
+        li{
+            display: inline-block;   
+            padding-right: 45px;
+            font-family: 'Readex Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            
+            a{
+                text-decoration: none;
+                color: #626363;
+            }
+            .cart{
+                :hover{
+                path{
+                    stroke: #56AB35;
+                }}
+                
+            }
+        }
+        li:last-child{
+            position: relative;
+            margin-right: 95px;
+            top: 10px;
+        }
+    }
+}
+//Meniu Done
 
 .xll{
     background-color: rgba(28, 224, 191, 0.822);

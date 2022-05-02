@@ -6,6 +6,7 @@ body {
 header {
   width: 100%;
   text-align: right;
+  border-bottom: 1px solid #F6F6F6;
 }
 
 header li {
@@ -31,6 +32,44 @@ header a {
 
 .email :hover path {
   fill: #DA9F39;
+}
+
+.meniu img {
+  position: relative;
+  width: 240px;
+  height: 28.88px;
+  left: 75px;
+  top: 50px;
+}
+
+.meniu ul {
+  text-align: right;
+  margin-top: 0px;
+}
+
+.meniu ul li {
+  display: inline-block;
+  padding-right: 45px;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.meniu ul li a {
+  text-decoration: none;
+  color: #626363;
+}
+
+.meniu ul li .cart :hover path {
+  stroke: #56AB35;
+}
+
+.meniu ul li:last-child {
+  position: relative;
+  margin-right: 95px;
+  top: 10px;
 }
 
 .xll {
